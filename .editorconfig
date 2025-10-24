@@ -1,0 +1,15 @@
+# .editorconfig
+
+# Define o arquivo como raiz, parando a busca em pastas superiores
+root = true
+
+[*] # Aplica a todos os arquivos
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md] # Específico para Markdown
+trim_trailing_whitespace = false
