@@ -28,6 +28,9 @@ Thumbs.db
 /frontend/build
 /frontend/node_modules
 
-# Arquivos de IDE
-.vscode/
-.idea/
+# Ignora todos os arquivos de IDE...
+.vscode/*
+
+# ...EXCETO os arquivos que queremos compartilhar com a equipe
+!.vscode/settings.json
+!.vscode/extensions.json

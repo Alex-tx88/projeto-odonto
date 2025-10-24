@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "dsznajder.es7-react-js-snippets",
+    "ashin.nest-snippets",
+    "humao.rest-client",
+    "mikestead.dotenv",
+    "eamodio.gitlens"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  // --- Formatação (Prettier) ---
+  // Define o Prettier como o formatador padrão para todos os arquivos
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Formata o arquivo automaticamente ao salvar
+  "editor.formatOnSave": true,
+
+  // --- Correção de Código (ESLint) ---
+  // Ativa as "Code Actions" (correções) ao salvar
+  "editor.codeActionsOnSave": {
+    // Pede ao ESLint para corrigir todos os erros que ele puder, ao salvar
+    "source.fixAll.eslint": true
+  },
+
+  // --- Validação (ESLint) ---
+  // Diz ao ESLint para validar arquivos JavaScript, React, TypeScript e Vue
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+
+  // --- Configurações do Explorer (Opcional, mas útil) ---
+  // Esconde arquivos e pastas desnecessários do explorador
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  // Faz o mesmo para a busca global (Ctrl+Shift+F)
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true
+  }
+}
